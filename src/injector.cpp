@@ -29,8 +29,8 @@ static constexpr const char* TARGET_PROC  = "deadlock.exe";
 
 static constexpr const char* CURRENT_VERSION    = "1.0.5";
 static constexpr const char* UPDATE_API_HOST    = "api.github.com";
-static constexpr const char* UPDATE_API_PATH    = "/repos/wrongsprat/unlock-convars/releases/latest";
-static constexpr const char* UPDATE_RELEASE_URL = "https://github.com/wrongsprat/unlock-convars/releases/tag/1.0.2";
+static constexpr const char* UPDATE_API_PATH    = "/repos/luclfer666/unlock-convars/releases/latest";
+static constexpr const char* UPDATE_RELEASE_URL = "https://github.com/luclfer666/unlock-convars/releases/tag/1.0.5";
 
 static FILE* g_pLog = nullptr;
 
@@ -516,7 +516,7 @@ int main(int argc, char* argv[])
     printf("//           see you next patch  ~  dyson            \n");
     printf("//                                                            \n");
     printf("// ===========================================================\n");
-    printf("\nProject: https://github.com/wrongsprat/unlock-convars\n\n");
+    printf("\nProject: https://github.com/luclfer666/unlock-convars\n\n");
 
     LogInfo("dysonbehind injector");
     LogInfo("dll: %s", dllPath.c_str());
